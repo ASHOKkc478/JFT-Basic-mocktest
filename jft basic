@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFT BASIC A2 - Quiz</title>
+    </title>EASYJAPANESE 1 </title>
+    </title>PLEASE SUBSCRIBE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>JFT BASIC A2 - Quiz</h1>
+    <form id="quizForm">
+        <!-- Questions 1 to 100 -->
+        <div class="question">
+            <p>1. 今は、野菜を＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> a) 作っています</label><br>
+                <label><input type="radio" name="q1" value="b"> b) 作らない</label><br>
+                <label><input type="radio" name="q1" value="c"> c) 作りました</label><br>
+                <label><input type="radio" name="q1" value="d"> d) 作りませんでした</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. 日本に１年＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> a) になります</label><br>
+                <label><input type="radio" name="q2" value="b"> b) なります</label><br>
+                <label><input type="radio" name="q2" value="c"> c) でなります</label><br>
+                <label><input type="radio" name="q2" value="d"> d) なりません</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. 日本では、何を＿＿＿＿＿か︖</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> a) しない</label><br>
+                <label><input type="radio" name="q3" value="b"> b) する</label><br>
+                <label><input type="radio" name="q3" value="c"> c) しています</label><br>
+                <label><input type="radio" name="q3" value="d"> d) しません</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. 私は去年の９月に日本に＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> a) 来ません</label><br>
+                <label><input type="radio" name="q4" value="b"> b) 来ます</label><br>
+                <label><input type="radio" name="q4" value="c"> c) 来ました</label><br>
+                <label><input type="radio" name="q4" value="d"> d) 来ますか</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. 私は＿＿＿＿＿。学生です。</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> a) 働きました</label><br>
+                <label><input type="radio" name="q5" value="b"> b) 働きます</label><br>
+                <label><input type="radio" name="q5" value="c"> c) 働いています</label><br>
+                <label><input type="radio" name="q5" value="d"> d) 働いていません</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>6. 趣味は音楽を＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> a) 聞きます</label><br>
+                <label><input type="radio" name="q6" value="b"> b) 聞いています</label><br>
+                <label><input type="radio" name="q6" value="c"> c) 聞くことです</label><br>
+                <label><input type="radio" name="q6" value="d"> d) 聞いたことです</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>7. ゲームを＿＿＿＿＿が好きです。</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> a) しての</label><br>
+                <label><input type="radio" name="q7" value="b"> b) したの</label><br>
+                <label><input type="radio" name="q7" value="c"> c) しますの</label><br>
+                <label><input type="radio" name="q7" value="d"> d) するの</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>8. 昨日は、バドミントンを＿＿＿＿＿、みんなでご飯を食べました。</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> a) する</label><br>
+                <label><input type="radio" name="q8" value="b"> b) しました</label><br>
+                <label><input type="radio" name="q8" value="c"> c) しませんでした</label><br>
+                <label><input type="radio" name="q8" value="d"> d) して</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>9. 休みの日は、たいてい友達＿＿＿＿買い物に行きました。</p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a"> a) で</label><br>
+                <label><input type="radio" name="q9" value="b"> b) と</label><br>
+                <label><input type="radio" name="q9" value="c"> c) に</label><br>
+                <label><input type="radio" name="q9" value="d"> d) の</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>10. 日本語が少し＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a"> a) できません</label><br>
+                <label><input type="radio" name="q10" value="b"> b) できます</label><br>
+                <label><input type="radio" name="q10" value="c"> c) できませんでした</label><br>
+                <label><input type="radio" name="q10" value="d"> d) できています</label>
+            </div>
+        </div>
+
+        <!-- Continue adding questions up to 100 -->
+
+        <div class="question">
+            <p>11. A:久しぶり。元気？<br>B:うん、元気。</p>
+            <div class="options">
+                <label><input type="radio" name="q11" value="a"> a) いらっしゃいませ</label><br>
+                <label><input type="radio" name="q11" value="b"> b) 久しぶり</label><br>
+                <label><input type="radio" name="q11" value="c"> c) そうですね。</label><br>
+                <label><input type="radio" name="q11" value="d"> d) もしもし</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>12. A:日本に、もう慣れましたか？<br>B:はい。</p>
+            <div class="options">
+                <label><input type="radio" name="q12" value="a"> a) 元気です</label><br>
+                <label><input type="radio" name="q12" value="b"> b) 慣れませんでした</label><br>
+                <label><input type="radio" name="q12" value="c"> c) お久しぶりです</label><br>
+                <label><input type="radio" name="q12" value="d"> d) おかげさまで</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>13. A:仕事はどうですか？<br>B:大変です。でも、＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q13" value="a"> a) 楽しいです</label><br>
+                <label><input type="radio" name="q13" value="b"> b) お疲れ様です</label><br>
+                <label><input type="radio" name="q13" value="c"> c) 疲れます</label><br>
+                <label><input type="radio" name="q13" value="d"> d) お世話になります</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>14. A:趣味は何ですか？<br>B:えーと、＿＿＿＿＿＿。家でゆっくりするのが好きです。</p>
+            <div class="options">
+                <label><input type="radio" name="q14" value="a"> a) そうですか</label><br>
+                <label><input type="radio" name="q14" value="b"> b) いいですね</label><br>
+                <label><input type="radio" name="q14" value="c"> c) どうしますか</label><br>
+                <label><input type="radio" name="q14" value="d"> d) 特にないです</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>15. A:アニメを見るのが好きです。<br>B:＿＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q15" value="a"> a) ごめんなさい</label><br>
+                <label><input type="radio" name="q15" value="b"> b) そうです</label><br>
+                <label><input type="radio" name="q15" value="c"> c) 私もです</label><br>
+                <label><input type="radio" name="q15" value="d"> d) 大変ですね</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>16. 私は＿＿＿＿＿が苦手です。</p>
+            <div class="options">
+                <label><input type="radio" name="q16" value="a"> a) 寒いの</label><br>
+                <label><input type="radio" name="q16" value="b"> b) 寒い</label><br>
+                <label><input type="radio" name="q16" value="c"> c) 寒くて</label><br>
+                <label><input type="radio" name="q16" value="d"> d) 寒くない</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>17. ４月ごろ、＿＿＿＿＿＿なります。</p>
+            <div class="options">
+                <label><input type="radio" name="q17" value="a"> a) 暖かく</label><br>
+                <label><input type="radio" name="q17" value="b"> b) 暖かいの</label><br>
+                <label><input type="radio" name="q17" value="c"> c) 暖かくに</label><br>
+                <label><input type="radio" name="q17" value="d"> d) 暖かいに</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>18. 秋が好きです、果物が＿＿＿＿＿＿から。</p>
+            <div class="options">
+                <label><input type="radio" name="q18" value="a"> a) おいしく</label><br>
+                <label><input type="radio" name="q18" value="b"> b) おいしくない</label><br>
+                <label><input type="radio" name="q18" value="c"> c) おいしいです</label><br>
+                <label><input type="radio" name="q18" value="d"> d) おいしくて</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>19. 秋は果物がおいしいですよね。ぶどう＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q19" value="a"> a) とか</label><br>
+                <label><input type="radio" name="q19" value="b"> b) です</label><br>
+                <label><input type="radio" name="q19" value="c"> c) や</label><br>
+                <label><input type="radio" name="q19" value="d"> d) と</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>20. 日本では、８月がいちばん＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q20" value="a"> a) 暑く</label><br>
+                <label><input type="radio" name="q20" value="b"> b) 暑くない</label><br>
+                <label><input type="radio" name="q20" value="c"> c) 暑い</label><br>
+                <label><input type="radio" name="q20" value="d"> d) 暑くて</label>
+            </div>
+        </div>
+
+
+        <!-- Questions 21 to 40 -->
+        <div class="question">
+            <p>21. 夏は学校が＿＿＿＿＿なります。</p>
+            <div class="options">
+                <label><input type="radio" name="q21" value="a"> a) 休みに</label><br>
+                <label><input type="radio" name="q21" value="b"> b) 休み</label><br>
+                <label><input type="radio" name="q21" value="c"> c) 休みで</label><br>
+                <label><input type="radio" name="q21" value="d"> d) 休みが</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>22. 涼しいのが＿＿＿＿＿＿から、秋が好きです。</p>
+            <div class="options">
+                <label><input type="radio" name="q22" value="a"> a) 大好き</label><br>
+                <label><input type="radio" name="q22" value="b"> b) 大好きです</label><br>
+                <label><input type="radio" name="q22" value="c"> c) 大好きなの</label><br>
+                <label><input type="radio" name="q22" value="d"> d) 大好きな</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>23. いつも公園＿＿＿＿サッカーをします。</p>
+            <div class="options">
+                <label><input type="radio" name="q23" value="a"> a) で</label><br>
+                <label><input type="radio" name="q23" value="b"> b) と</label><br>
+                <label><input type="radio" name="q23" value="c"> c) に</label><br>
+                <label><input type="radio" name="q23" value="d"> d) は</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>24. テニスはするのも、＿＿＿＿も大好きです。</p>
+            <div class="options">
+                <label><input type="radio" name="q24" value="a"> a) 見て</label><br>
+                <label><input type="radio" name="q24" value="b"> b) 見ます</label><br>
+                <label><input type="radio" name="q24" value="c"> c) 見るの</label><br>
+                <label><input type="radio" name="q24" value="d"> d) 見る</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>25. 今、いけばなを＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q25" value="a"> a) 習っています</label><br>
+                <label><input type="radio" name="q25" value="b"> b) 習いました</label><br>
+                <label><input type="radio" name="q25" value="c"> c) 習ったことです</label><br>
+                <label><input type="radio" name="q25" value="d"> d) 習うことです</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>26. 旧暦のお正月の日は、年＿＿＿＿＿＿ちがいます。</p>
+            <div class="options">
+                <label><input type="radio" name="q26" value="a"> a) になって</label><br>
+                <label><input type="radio" name="q26" value="b"> b) によって</label><br>
+                <label><input type="radio" name="q26" value="c"> c) において</label><br>
+                <label><input type="radio" name="q26" value="d"> d) にたいして</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>27. 今年は、クリスマスも会社に＿＿＿＿＿＿なくちゃならないんです。</p>
+            <div class="options">
+                <label><input type="radio" name="q27" value="a"> a) 行く</label><br>
+                <label><input type="radio" name="q27" value="b"> b) 行って</label><br>
+                <label><input type="radio" name="q27" value="c"> c) 行か</label><br>
+                <label><input type="radio" name="q27" value="d"> d) 行け</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>28. お正月は、親戚が＿＿＿＿、忙しかったです。</p>
+            <div class="options">
+                <label><input type="radio" name="q28" value="a"> a) 来なくて</label><br>
+                <label><input type="radio" name="q28" value="b"> b) 来たりして</label><br>
+                <label><input type="radio" name="q28" value="c"> c) 来ながら</label><br>
+                <label><input type="radio" name="q28" value="d"> d) 来ないで</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>29. 今度の休み、１日＿＿＿＿＿＿実家に帰ります。</p>
+            <div class="options">
+                <label><input type="radio" name="q29" value="a"> a) しか</label><br>
+                <label><input type="radio" name="q29" value="b"> b) だけ</label><br>
+                <label><input type="radio" name="q29" value="c"> c) まあまあ</label><br>
+                <label><input type="radio" name="q29" value="d"> d) とか</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>30. 私の友だちと＿＿＿＿＿＿楽しかったです。</p>
+            <div class="options">
+                <label><input type="radio" name="q30" value="a"> a) 遊んだりして</label><br>
+                <label><input type="radio" name="q30" value="b"> b) 遊んだほうが</label><br>
+                <label><input type="radio" name="q30" value="c"> c) 遊べなくて</label><br>
+                <label><input type="radio" name="q30" value="d"> d) 遊んだあと</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>31. お年玉は、５００円＿＿＿＿＿もらえませんでした。</p>
+            <div class="options">
+                <label><input type="radio" name="q31" value="a"> a) だけ</label><br>
+                <label><input type="radio" name="q31" value="b"> b) しか</label><br>
+                <label><input type="radio" name="q31" value="c"> c) は</label><br>
+                <label><input type="radio" name="q31" value="d"> d) ただ</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>32. お見舞いは、何を＿＿＿＿＿＿＿いいですか？</p>
+            <div class="options">
+                <label><input type="radio" name="q32" value="a"> a) 持って行くなら</label><br>
+                <label><input type="radio" name="q32" value="b"> b) 持って行けば</label><br>
+                <label><input type="radio" name="q32" value="c"> c) 持って行くのは</label><br>
+                <label><input type="radio" name="q32" value="d"> d) 持って行く</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>33. 昨日、遅刻して店長に＿＿＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q33" value="a"> a) 怒りました</label><br>
+                <label><input type="radio" name="q33" value="b"> b) 怒れました</label><br>
+                <label><input type="radio" name="q33" value="c"> c) 怒られました</label><br>
+                <label><input type="radio" name="q33" value="d"> d) 怒られませんでした</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>34. まだ横断歩道を＿＿＿＿＿だめですよ。</p>
+            <div class="options">
+                <label><input type="radio" name="q34" value="a"> a) 渡って</label><br>
+                <label><input type="radio" name="q34" value="b"> b) 渡っちゃ</label><br>
+                <label><input type="radio" name="q34" value="c"> c) 渡ったし</label><br>
+                <label><input type="radio" name="q34" value="d"> d) 渡っても</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>35. お葬式の日は、どんな服を＿＿＿＿＿＿いいですか？</p>
+            <div class="options">
+                <label><input type="radio" name="q35" value="a"> a) 着れば</label><br>
+                <label><input type="radio" name="q35" value="b"> b) 着るのは</label><br>
+                <label><input type="radio" name="q35" value="c"> c) 着なければ</label><br>
+                <label><input type="radio" name="q35" value="d"> d) 着てみても</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>36. A:あけましておめでとう。<br>B:おめでとうございます。＿＿＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q36" value="a"> a) お世話になっています</label><br>
+                <label><input type="radio" name="q36" value="b"> b) 今年もお願いします</label><br>
+                <label><input type="radio" name="q36" value="c"> c) お大事に</label><br>
+                <label><input type="radio" name="q36" value="d"> d) お幸せに</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>37. A:甘酒はどうでしたか？<br>B:＿＿＿＿＿＿甘かったです。</p>
+            <div class="options">
+                <label><input type="radio" name="q37" value="a"> a) おかげさまで</label><br>
+                <label><input type="radio" name="q37" value="b"> b) できるだけ</label><br>
+                <label><input type="radio" name="q37" value="c"> c) 思ったより</label><br>
+                <label><input type="radio" name="q37" value="d"> d) はい、そうです</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>38. A:フリーマーケットは、＿＿＿＿＿？<br>B:今日は、もう終わりました。</p>
+            <div class="options">
+                <label><input type="radio" name="q38" value="a"> a) お決まりですか</label><br>
+                <label><input type="radio" name="q38" value="b"> b) もうすこしどうですか</label><br>
+                <label><input type="radio" name="q38" value="c"> c) またですか</label><br>
+                <label><input type="radio" name="q38" value="d"> d) まだやっていますか</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>39. A:最近は、花は全部だめな病院も多いそうですよ。<br>B:じゃあ、＿＿＿＿＿＿？</p>
+            <div class="options">
+                <label><input type="radio" name="q39" value="a"> a) どういう意味ですか</label><br>
+                <label><input type="radio" name="q39" value="b"> b) どうしたんですか</label><br>
+                <label><input type="radio" name="q39" value="c"> c) どうすればいいですか</label><br>
+                <label><input type="radio" name="q39" value="d"> d) どうしましたか</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>40. A:レジがすぐ混んでいたので、買う前に少しだけ飲んだんです。<br>B:それはダメですよ。＿＿＿＿＿＿、先にお金を払わなきゃ。</p>
+            <div class="options">
+                <label><input type="radio" name="q40" value="a"> a) ちょうど</label><br>
+                <label><input type="radio" name="q40" value="b"> b) ぜんぜん</label><br>
+                <label><input type="radio" name="q40" value="c"> c) ちょっと</label><br>
+                <label><input type="radio" name="q40" value="d"> d) ちゃんと</label>
+            </div>
+        </div>
+
+
+        <!-- Questions 41 to 50 -->
+        <div class="question">
+            <p>41. ブラスバンドの演奏は、雨が＿＿＿＿＿、中止です。</p>
+            <div class="options">
+                <label><input type="radio" name="q41" value="a"> a) 降るのは</label><br>
+                <label><input type="radio" name="q41" value="b"> b) 降ったら</label><br>
+                <label><input type="radio" name="q41" value="c"> c) 降ったり</label><br>
+                <label><input type="radio" name="q41" value="d"> d) 降らなければ</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>42. 午後８時から、花火大会が＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q42" value="a"> a) 予定します</label><br>
+                <label><input type="radio" name="q42" value="b"> b) 予定されていません</label><br>
+                <label><input type="radio" name="q42" value="c"> c) 予定しています</label><br>
+                <label><input type="radio" name="q42" value="d"> d) 予定されています</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>43. 天気が＿＿＿＿＿＿、フリーマーケットが開催されます。</p>
+            <div class="options">
+                <label><input type="radio" name="q43" value="a"> a) いいですが</label><br>
+                <label><input type="radio" name="q43" value="b"> b) いいけど</label><br>
+                <label><input type="radio" name="q43" value="c"> c) よくて</label><br>
+                <label><input type="radio" name="q43" value="d"> d) よかったら</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>44. 駅前の広場で、果物の販売会が＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q44" value="a"> a) 開かれます</label><br>
+                <label><input type="radio" name="q44" value="b"> b) 開いています</label><br>
+                <label><input type="radio" name="q44" value="c"> c) 開きません</label><br>
+                <label><input type="radio" name="q44" value="d"> d) 開きます</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>45. 私は一人で浴衣が＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q45" value="a"> a) 着てみます</label><br>
+                <label><input type="radio" name="q45" value="b"> b) 着ない</label><br>
+                <label><input type="radio" name="q45" value="c"> c) 着られます</label><br>
+                <label><input type="radio" name="q45" value="d"> d) 着るんです</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>46. 来週、公民館において、「ふるさとまつり」が＿＿＿＿＿＿＿。</p>
+            <div class="options">
+                <label><input type="radio" name="q46" value="a"> a) 行います</label><br>
+                <label><input type="radio" name="q46" value="b"> b) 行いません</label><br>
+                <label><input type="radio" name="q46" value="c"> c) 行えます</label><br>
+                <label><input type="radio" name="q46" value="d"> d) 行われます</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>47. お祭りが＿＿＿＿＿、いっしょにレストランに行きましょう。</p>
+            <div class="options">
+                <label><input type="radio" name="q47" value="a"> a) 終わっても</label><br>
+                <label><input type="radio" name="q47" value="b"> b) 終わりたい</label><br>
+                <label><input type="radio" name="q47" value="c"> c) 終わると</label><br>
+                <label><input type="radio" name="q47" value="d"> d) 終わったら</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>48. イベントでは、地元のおいしいお酒が＿＿＿＿＿よ。</p>
+            <div class="options">
+                <label><input type="radio" name="q48" value="a"> a) 飲みます</label><br>
+                <label><input type="radio" name="q48" value="b"> b) 飲めません</label><br>
+                <label><input type="radio" name="q48" value="c"> c) 飲めます</label><br>
+                <label><input type="radio" name="q48" value="d"> d) 飲まれます</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>49. 明日のお祭りは、何時から＿＿＿＿＿＿わかりますか？</p>
+            <div class="options">
+                <label><input type="radio" name="q49" value="a"> a) と</label><br>
+                <label><input type="radio" name="q49" value="b"> b) か</label><br>
+                <label><input type="radio" name="q49" value="c"> c) に</label><br>
+                <label><input type="radio" name="q49" value="d"> d) が</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>50. 船に＿＿＿＿＿＿、よかったです。</p>
+            <div class="options">
+                <label><input type="radio" name="q50" value="a"> a) 乗れない</label><br>
+                <label><input type="radio" name="q50" value="b"> b) 乗れて</label><br>
+                <label><input type="radio" name="q50" value="c"> c) 乗れた</label><br>
+                <label><input type="radio" name="q50" value="d"> d) 乗れる</label>
+            </div>
+        </div>
+
+
+        <button type="button" onclick="calculateScore()">Submit Answers</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        // Correct answers for all 100 questions
+        const correctAnswers = [
+            "a", "a", "c", "c", "d", "c", "d", "d", "b", "b", // 1-10
+            "b", "d", "a", "d", "c", "b", "a", "d", "a", "c", // 11-20
+            "a", "d", "a", "c", "a", "b", "c", "b", "b", "a", // 21-30
+            "b", "b", "c", "b", "a", "b", "c", "d", "c", "d", // 31-40
+            "b", "d", "d", "a", "c", "d", "d", "c", "d", "b", // 41-50
+            "d", "d", "b", "a", "c", "b", "c", "b", "a", "a", // 51-60
+            "d", "b", "b", "d", "d", "c", "c", "a", "c", "b", // 61-70
+            "b", "a", "b", "c", "b", "c", "b", "b", "c", "d", // 71-80
+            "b", "d", "b", "d", "b", "d", "c", "d", "d", "b", // 81-90
+            "a", "b", "d", "a", "c", "c", "d", "c", "c", "b"  // 91-100
+        ];
+
+        function calculateScore() {
+            let score = 0;
+            for (let i = 1; i <= 100; i++) {
+                const selectedAnswer = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === correctAnswers[i - 1]) {
+                    score++;
+                }
+            }
+            document.getElementById("result").innerText = `Your score is ${score} out of 50.`;
+        }
+    </script>
+</body>
+</html>
+
